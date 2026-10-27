@@ -1,0 +1,47 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+WARNING: No Bone2D children of node Tail. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (/workspace/Game/tests/run_visual_alignment.gd:18)
+WARNING: No Bone2D children of node WingLeft. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (/workspace/Game/tests/run_visual_alignment.gd:18)
+WARNING: No Bone2D children of node WingRight. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (/workspace/Game/tests/run_visual_alignment.gd:18)
+WARNING: No Bone2D children of node BackLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (/workspace/Game/tests/run_visual_alignment.gd:18)
+WARNING: No Bone2D children of node BackRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (/workspace/Game/tests/run_visual_alignment.gd:18)
+WARNING: No Bone2D children of node FrontLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (/workspace/Game/tests/run_visual_alignment.gd:18)
+WARNING: No Bone2D children of node FrontRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (/workspace/Game/tests/run_visual_alignment.gd:18)
+WARNING: No Bone2D children of node Head. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (/workspace/Game/tests/run_visual_alignment.gd:18)
+fly artwork bounds: [P: (603.7714, 650.8937), S: (423.3895, 265.8843)]
+dive artwork bounds: [P: (626.6649, 812.7463), S: (442.8211, 284.7924)]
+hurt artwork bounds: [P: (634.7636, 845.3182), S: (396.3129, 254.6019)]
+death artwork bounds: [P: (638.5624, 762.6259), S: (426.2609, 347.356)]
+VISUAL ALIGNMENT RESULTS: {"checks":27,"failures":["body artwork follows hitbox at route (60.0, 40.0)","body artwork follows hitbox at route (80.0, 100.0)","body artwork follows hitbox at route (90.0, 180.0)","body artwork follows hitbox at route (80.0, 275.0)","fly visible body pixels overlap body hitbox","fly all artwork stays on screen","body artwork follows dive step 0","body artwork follows dive step 1","body artwork follows dive step 2","body artwork follows dive step 3","body artwork follows dive step 4","body artwork follows dive step 5","body artwork follows dive step 6","body artwork follows dive step 7","body artwork follows dive step 8","body artwork follows dive step 9","body artwork follows dive step 10","body artwork follows dive step 11","body artwork follows dive step 12","body artwork follows dive step 13","body artwork follows dive step 14","dive visible body pixels overlap body hitbox","dive all artwork stays on screen","hurt visible body pixels overlap body hitbox","hurt all artwork stays on screen","death visible body pixels overlap body hitbox","death all artwork stays on screen"],"passed":false}

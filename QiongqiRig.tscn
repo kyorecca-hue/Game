@@ -20,6 +20,7 @@
 [node name="QiongqiRig" type="Node2D"]
 
 [node name="Skeleton2D" type="Skeleton2D" parent="."]
+position = Vector2(-257, -384)
 
 [node name="Body" type="Bone2D" parent="Skeleton2D"]
 position = Vector2(257, 384)

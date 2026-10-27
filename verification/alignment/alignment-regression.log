@@ -1,0 +1,243 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+WARNING: No Bone2D children of node Tail. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:17)
+WARNING: No Bone2D children of node WingLeft. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:17)
+WARNING: No Bone2D children of node WingRight. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:17)
+WARNING: No Bone2D children of node BackLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:17)
+WARNING: No Bone2D children of node BackRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:17)
+WARNING: No Bone2D children of node FrontLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:17)
+WARNING: No Bone2D children of node FrontRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:17)
+WARNING: No Bone2D children of node Head. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:17)
+WARNING: No Bone2D children of node Tail. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:30)
+WARNING: No Bone2D children of node WingLeft. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:30)
+WARNING: No Bone2D children of node WingRight. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:30)
+WARNING: No Bone2D children of node BackLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:30)
+WARNING: No Bone2D children of node BackRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:30)
+WARNING: No Bone2D children of node FrontLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:30)
+WARNING: No Bone2D children of node FrontRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:30)
+WARNING: No Bone2D children of node Head. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:30)
+WARNING: No Bone2D children of node Tail. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:39)
+WARNING: No Bone2D children of node WingLeft. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:39)
+WARNING: No Bone2D children of node WingRight. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:39)
+WARNING: No Bone2D children of node BackLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:39)
+WARNING: No Bone2D children of node BackRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:39)
+WARNING: No Bone2D children of node FrontLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:39)
+WARNING: No Bone2D children of node FrontRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:39)
+WARNING: No Bone2D children of node Head. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:39)
+WARNING: No Bone2D children of node Tail. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:44)
+WARNING: No Bone2D children of node WingLeft. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:44)
+WARNING: No Bone2D children of node WingRight. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:44)
+WARNING: No Bone2D children of node BackLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:44)
+WARNING: No Bone2D children of node BackRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:44)
+WARNING: No Bone2D children of node FrontLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:44)
+WARNING: No Bone2D children of node FrontRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:44)
+WARNING: No Bone2D children of node Head. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:44)
+WARNING: No Bone2D children of node Tail. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:49)
+WARNING: No Bone2D children of node WingLeft. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:49)
+WARNING: No Bone2D children of node WingRight. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:49)
+WARNING: No Bone2D children of node BackLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:49)
+WARNING: No Bone2D children of node BackRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:49)
+WARNING: No Bone2D children of node FrontLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:49)
+WARNING: No Bone2D children of node FrontRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:49)
+WARNING: No Bone2D children of node Head. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] make_battle (res://tests/run_tests_v16.gd:12)
+         [1] run_all (res://tests/run_tests_v16.gd:49)
+V16 TEST RESULTS: {"checks":13,"failures":[],"passed":true,"version":"v16"}
