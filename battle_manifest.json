@@ -1,0 +1,13 @@
+{
+  "version": "v10",
+  "base": "v9",
+  "main_scene": "Battle.tscn",
+  "mechanics": [
+    "tower_auto_fire",
+    "boss_hp",
+    "wing_weakpoint",
+    "dive_impact",
+    "seal"
+  ],
+  "engine_tested": false
+}

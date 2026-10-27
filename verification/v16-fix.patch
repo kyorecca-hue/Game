@@ -1,0 +1,11 @@
+--- a/rig_controller.gd
++++ b/rig_controller.gd
+@@ -39,7 +39,7 @@
+     if action == "death":
+         peaks = [0.0, 0.4, 0.85, 1.0, 1.0]
+     for bone_name in AMPLITUDE[action]:
+-        var path := "Skeleton2D/Body" + ("" if bone_name == "Body" else "/" + bone_name) + ":rotation"
++        var path: String = "Skeleton2D/Body" + ("" if bone_name == "Body" else "/" + str(bone_name)) + ":rotation"
+         var index := a.add_track(Animation.TYPE_VALUE)
+         a.track_set_path(index, NodePath(path))
+         a.track_set_interpolation_type(index, Animation.INTERPOLATION_CUBIC)

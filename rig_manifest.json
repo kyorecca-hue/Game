@@ -1,0 +1,94 @@
+{
+  "version": "v9",
+  "source": "v6 idle_00",
+  "parts": [
+    "tail",
+    "wing_left",
+    "wing_right",
+    "back_left_leg",
+    "back_right_leg",
+    "body",
+    "front_left_leg",
+    "front_right_leg",
+    "head"
+  ],
+  "canvas": [
+    512,
+    512
+  ],
+  "pivot_by_part": {
+    "tail": [
+      170,
+      383
+    ],
+    "wing_left": [
+      240,
+      324
+    ],
+    "wing_right": [
+      379,
+      314
+    ],
+    "back_left_leg": [
+      190,
+      403
+    ],
+    "back_right_leg": [
+      220,
+      414
+    ],
+    "body": [
+      257,
+      384
+    ],
+    "front_left_leg": [
+      269,
+      411
+    ],
+    "front_right_leg": [
+      340,
+      411
+    ],
+    "head": [
+      314,
+      330
+    ]
+  },
+  "status": "rigid sprites + conservative seam cover patches; original missing anatomy NOT redrawn",
+  "engine_tested": false,
+  "rig_type": "Skeleton2D / Bone2D rigid part parenting",
+  "animations": {
+    "idle": {
+      "duration": 2.0,
+      "loop": true
+    },
+    "fly": {
+      "duration": 1.2,
+      "loop": true
+    },
+    "dive": {
+      "duration": 0.75,
+      "loop": false
+    },
+    "attack": {
+      "duration": 0.8,
+      "loop": false
+    },
+    "hurt": {
+      "duration": 0.5,
+      "loop": false
+    },
+    "death": {
+      "duration": 1.4,
+      "loop": false
+    }
+  },
+  "joint_cover_layers": [
+    "joint_wingleft.png",
+    "joint_wingright.png",
+    "joint_backleftleg.png",
+    "joint_backrightleg.png",
+    "joint_frontleftleg.png",
+    "joint_frontrightleg.png"
+  ]
+}

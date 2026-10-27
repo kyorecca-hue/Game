@@ -1,0 +1,16 @@
+{
+  "version": "v12",
+  "base": "v11",
+  "new_files": [
+    "battle_controller_v12.gd",
+    "projectile_v12.gd",
+    "README_v12.md"
+  ],
+  "features": [
+    "Area2D weakpoint",
+    "Area2D projectile",
+    "collision shapes",
+    "six animations retained"
+  ],
+  "engine_runtime_tested": false
+}

@@ -1,0 +1,11 @@
+{
+  "version": "v13",
+  "engine": "Godot 4.x",
+  "source": "v12",
+  "new_scripts": [
+    "battle_controller_v13.gd",
+    "projectile_v13.gd"
+  ],
+  "scene": "Battle.tscn",
+  "tested_in_godot": false
+}

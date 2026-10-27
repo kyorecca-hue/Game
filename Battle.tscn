@@ -1,0 +1,75 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="PackedScene" path="res://Preview.tscn" id="1"]
+[ext_resource type="Script" path="res://battle_controller_v16.gd" id="2"]
+
+[sub_resource type="CircleShape2D" id="wing"]
+radius = 52.0
+[sub_resource type="CircleShape2D" id="body"]
+radius = 90.0
+[sub_resource type="RectangleShape2D" id="wall"]
+size = Vector2(390, 65)
+[sub_resource type="CircleShape2D" id="dive"]
+radius = 75.0
+[sub_resource type="CircleShape2D" id="claw"]
+radius = 65.0
+
+[node name="Battle" type="Node2D"]
+script = ExtResource("2")
+
+[node name="Boss" parent="." instance=ExtResource("1")]
+position = Vector2(60, 40)
+
+[node name="Projectiles" type="Node2D" parent="."]
+
+[node name="BossBody" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 0
+input_pickable = true
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BossBody"]
+shape = SubResource("body")
+
+[node name="Weakpoint" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 0
+input_pickable = true
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Weakpoint"]
+shape = SubResource("wing")
+
+[node name="WallHitbox" type="Area2D" parent="."]
+position = Vector2(560, 630)
+collision_layer = 8
+collision_mask = 16 | 32
+monitorable = true
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallHitbox"]
+shape = SubResource("wall")
+
+[node name="DiveHitbox" type="Area2D" parent="."]
+collision_layer = 16
+collision_mask = 8
+monitoring = true
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DiveHitbox"]
+shape = SubResource("dive")
+disabled = true
+
+[node name="ClawHitbox" type="Area2D" parent="."]
+collision_layer = 32
+collision_mask = 8
+monitoring = true
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ClawHitbox"]
+shape = SubResource("claw")
+disabled = true
+
+[node name="HUD" type="CanvasLayer" parent="."]
+[node name="Info" type="Label" parent="HUD"]
+offset_left = 20.0
+offset_top = 16.0
+offset_right = 1090.0
+offset_bottom = 115.0
+text = "Qiongqi v16 battle prototype"
+[node name="Instructions" type="Label" parent="HUD"]
+offset_left = 20.0
+offset_top = 705.0
+offset_right = 1090.0
+offset_bottom = 755.0
+text = "Click wing/body | A: shoot | D: dive | J: claw | Hold F: seal | R: restart"

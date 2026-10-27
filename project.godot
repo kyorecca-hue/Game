@@ -1,0 +1,13 @@
+config_version=5
+
+[application]
+config/name="Beastfall Qiongqi Battle v16"
+run/main_scene="res://Battle.tscn"
+
+[display]
+window/size/viewport_width=1100
+window/size/viewport_height=760
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

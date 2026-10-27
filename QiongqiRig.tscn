@@ -1,0 +1,128 @@
+[gd_scene load_steps=17 format=3]
+
+[ext_resource type="Texture2D" path="res://parts/body.png" id="1"]
+[ext_resource type="Texture2D" path="res://parts/tail.png" id="2"]
+[ext_resource type="Texture2D" path="res://parts/wing_left.png" id="3"]
+[ext_resource type="Texture2D" path="res://parts/wing_right.png" id="4"]
+[ext_resource type="Texture2D" path="res://parts/back_left_leg.png" id="5"]
+[ext_resource type="Texture2D" path="res://parts/back_right_leg.png" id="6"]
+[ext_resource type="Texture2D" path="res://parts/front_left_leg.png" id="7"]
+[ext_resource type="Texture2D" path="res://parts/front_right_leg.png" id="8"]
+[ext_resource type="Texture2D" path="res://parts/head.png" id="9"]
+
+[ext_resource type="Texture2D" path="res://parts/joint_wingleft.png" id="joint_WingLeft"]
+[ext_resource type="Texture2D" path="res://parts/joint_wingright.png" id="joint_WingRight"]
+[ext_resource type="Texture2D" path="res://parts/joint_backleftleg.png" id="joint_BackLeftLeg"]
+[ext_resource type="Texture2D" path="res://parts/joint_backrightleg.png" id="joint_BackRightLeg"]
+[ext_resource type="Texture2D" path="res://parts/joint_frontleftleg.png" id="joint_FrontLeftLeg"]
+[ext_resource type="Texture2D" path="res://parts/joint_frontrightleg.png" id="joint_FrontRightLeg"]
+
+[node name="QiongqiRig" type="Node2D"]
+
+[node name="Skeleton2D" type="Skeleton2D" parent="."]
+
+[node name="Body" type="Bone2D" parent="Skeleton2D"]
+position = Vector2(257, 384)
+rest = Transform2D(1, 0, 0, 1, 257, 384)
+
+[node name="Art" type="Sprite2D" parent="Skeleton2D/Body"]
+texture = ExtResource("1")
+offset = Vector2(-1, -128)
+
+[node name="Tail" type="Bone2D" parent="Skeleton2D/Body"]
+position = Vector2(-87, -1)
+rest = Transform2D(1, 0, 0, 1, -87, -1)
+
+[node name="Art" type="Sprite2D" parent="Skeleton2D/Body/Tail"]
+texture = ExtResource("2")
+offset = Vector2(86, -127)
+
+[node name="WingLeft" type="Bone2D" parent="Skeleton2D/Body"]
+position = Vector2(-17, -60)
+rest = Transform2D(1, 0, 0, 1, -17, -60)
+
+[node name="Art" type="Sprite2D" parent="Skeleton2D/Body/WingLeft"]
+texture = ExtResource("3")
+offset = Vector2(16, -68)
+
+[node name="WingRight" type="Bone2D" parent="Skeleton2D/Body"]
+position = Vector2(122, -70)
+rest = Transform2D(1, 0, 0, 1, 122, -70)
+
+[node name="Art" type="Sprite2D" parent="Skeleton2D/Body/WingRight"]
+texture = ExtResource("4")
+offset = Vector2(-123, -58)
+
+[node name="BackLeftLeg" type="Bone2D" parent="Skeleton2D/Body"]
+position = Vector2(-67, 19)
+rest = Transform2D(1, 0, 0, 1, -67, 19)
+
+[node name="Art" type="Sprite2D" parent="Skeleton2D/Body/BackLeftLeg"]
+texture = ExtResource("5")
+offset = Vector2(66, -147)
+
+[node name="BackRightLeg" type="Bone2D" parent="Skeleton2D/Body"]
+position = Vector2(-37, 30)
+rest = Transform2D(1, 0, 0, 1, -37, 30)
+
+[node name="Art" type="Sprite2D" parent="Skeleton2D/Body/BackRightLeg"]
+texture = ExtResource("6")
+offset = Vector2(36, -158)
+
+[node name="FrontLeftLeg" type="Bone2D" parent="Skeleton2D/Body"]
+position = Vector2(12, 27)
+rest = Transform2D(1, 0, 0, 1, 12, 27)
+
+[node name="Art" type="Sprite2D" parent="Skeleton2D/Body/FrontLeftLeg"]
+texture = ExtResource("7")
+offset = Vector2(-13, -155)
+
+[node name="FrontRightLeg" type="Bone2D" parent="Skeleton2D/Body"]
+position = Vector2(83, 27)
+rest = Transform2D(1, 0, 0, 1, 83, 27)
+
+[node name="Art" type="Sprite2D" parent="Skeleton2D/Body/FrontRightLeg"]
+texture = ExtResource("8")
+offset = Vector2(-84, -155)
+
+[node name="Head" type="Bone2D" parent="Skeleton2D/Body"]
+position = Vector2(57, -54)
+rest = Transform2D(1, 0, 0, 1, 57, -54)
+
+[node name="Art" type="Sprite2D" parent="Skeleton2D/Body/Head"]
+z_index = 3
+texture = ExtResource("9")
+offset = Vector2(-58, -74)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+
+[node name="CoverWingLeft" type="Sprite2D" parent="Skeleton2D/Body"]
+texture = ExtResource("joint_WingLeft")
+offset = Vector2(-1, -128)
+z_index = 2
+
+[node name="CoverWingRight" type="Sprite2D" parent="Skeleton2D/Body"]
+texture = ExtResource("joint_WingRight")
+offset = Vector2(-1, -128)
+z_index = 2
+
+[node name="CoverBackLeftLeg" type="Sprite2D" parent="Skeleton2D/Body"]
+texture = ExtResource("joint_BackLeftLeg")
+offset = Vector2(-1, -128)
+z_index = 2
+
+[node name="CoverBackRightLeg" type="Sprite2D" parent="Skeleton2D/Body"]
+texture = ExtResource("joint_BackRightLeg")
+offset = Vector2(-1, -128)
+z_index = 2
+
+[node name="CoverFrontLeftLeg" type="Sprite2D" parent="Skeleton2D/Body"]
+texture = ExtResource("joint_FrontLeftLeg")
+offset = Vector2(-1, -128)
+z_index = 2
+
+[node name="CoverFrontRightLeg" type="Sprite2D" parent="Skeleton2D/Body"]
+texture = ExtResource("joint_FrontRightLeg")
+offset = Vector2(-1, -128)
+z_index = 2

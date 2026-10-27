@@ -1,0 +1,26 @@
+{
+  "version": "v16",
+  "engine_available": false,
+  "engine_test_executed": false,
+  "engine_test_result": "NOT_RUN",
+  "static_checks": {
+    "project.godot": true,
+    "Battle.tscn": true,
+    "Preview.tscn": true,
+    "QiongqiRig.tscn": true,
+    "battle_controller_v16.gd": true,
+    "projectile_v15.gd": true,
+    "tests/run_tests_v16.gd": true,
+    "scene_node_BossBody": true,
+    "scene_node_Weakpoint": true,
+    "scene_node_WallHitbox": true,
+    "scene_node_DiveHitbox": true,
+    "scene_node_ClawHitbox": true,
+    "scene_script_reference": true,
+    "project_main_scene": true
+  },
+  "limitations": [
+    "Godot 4 binary unavailable; scene/script parse and runtime validation not performed.",
+    "Attack hitboxes still use analytic geometry for damage; Area2D nodes are included but no physics overlap signal for impact."
+  ]
+}

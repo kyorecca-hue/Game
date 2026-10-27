@@ -1,0 +1,12 @@
+{
+  "version": 14,
+  "based_on": "v13",
+  "features": [
+    "swept projectile collision",
+    "deterministic wing/body/wall hit priority",
+    "moving dive trajectory",
+    "single damage per action",
+    "animation event integration"
+  ],
+  "engine_tested": false
+}

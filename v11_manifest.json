@@ -1,0 +1,12 @@
+{
+  "version": "v11",
+  "based_on": "v10",
+  "features": [
+    "waypoints",
+    "moving wing hit area",
+    "range-based claw hit",
+    "enrage at half HP",
+    "seal progress",
+    "win lose"
+  ]
+}

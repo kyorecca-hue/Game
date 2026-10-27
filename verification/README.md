@@ -1,0 +1,2 @@
+Fix: explicitly type the animation track path as String and convert the dictionary key with str(). Only rig_controller.gd changed from the original ZIP.
+Validated with Godot 4.6.3: editor import and all 13 original regression checks pass; main scene ran 600 frames at fixed 60 FPS with no script errors. Bone2D leaf warnings remain. Visuals and interactive input were not verified. Historical QA reports in the project root describe the original package; this directory records the fixed build.
