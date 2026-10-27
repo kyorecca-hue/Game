@@ -84,17 +84,19 @@ func _physics_process(delta: float) -> void:
     if tower_timer >= 0.9:
         tower_timer -= 0.9
         _fire_tower()
-    if not airborne and Input.is_key_pressed(KEY_F):
-        seal_progress = minf(2.5, seal_progress + delta)
-        if seal_progress >= 2.5: _seal()
-    else:
-        seal_progress = maxf(0.0, seal_progress - delta * 0.5)
+    _advance_legacy_seal_input(delta)
     if hp <= MAX_HP * 0.5 and not enraged:
         enraged = true
         notice = "Phase 2: Enraged"
     if wall_hp <= 0.0: _lose()
     _update_hud()
     queue_redraw()
+func _advance_legacy_seal_input(delta: float) -> void:
+    if not airborne and Input.is_key_pressed(KEY_F):
+        seal_progress = minf(2.5, seal_progress + delta)
+        if seal_progress >= 2.5: _seal()
+    else:
+        seal_progress = maxf(0.0, seal_progress - delta * 0.5)
 func _finished() -> bool:
     return phase in ["sealed", "defeated", "lost"]
 func _sync_hitboxes() -> void:
@@ -288,6 +290,8 @@ func _draw() -> void:
         draw_circle(point,27.0,Color("9d7951"))
         draw_circle(point,12.0,Color("db8d40"))
     draw_arc(wing.position,52.0,0.0,TAU,64,Color("e74738") if airborne else Color("777777"),3.0)
-    if not airborne: draw_arc(Vector2(560,470),95.0,0.0,TAU,64,Color("ed5144"),4.0)
+    _draw_legacy_seal_marker()
     draw_rect(Rect2(375,110,360,15),Color("3b2424"))
     draw_rect(Rect2(375,110,360*hp/MAX_HP,15),Color("c33e36"))
+func _draw_legacy_seal_marker() -> void:
+    if not airborne: draw_arc(Vector2(560,470),95.0,0.0,TAU,64,Color("ed5144"),4.0)

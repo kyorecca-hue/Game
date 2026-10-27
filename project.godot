@@ -1,8 +1,8 @@
 config_version=5
 
 [application]
-config/name="Beastfall Qiongqi Battle v16.2"
-run/main_scene="res://Battle.tscn"
+config/name="Beastfall Qiongqi Hero Battle v17"
+run/main_scene="res://HeroBattle.tscn"
 
 [display]
 window/size/viewport_width=1100

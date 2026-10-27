@@ -8,7 +8,8 @@ func check(value: bool, label: String) -> void:
     checks += 1
     if not value: failures.append(label)
 func run() -> void:
-    var b = load("res://Battle.tscn").instantiate()
+    var hero_mode := "--hero" in OS.get_cmdline_user_args()
+    var b = load("res://HeroBattle.tscn" if hero_mode else "res://Battle.tscn").instantiate()
     root.add_child(b)
     b.set_physics_process(false)
     b.boss.set_process(false)
@@ -18,6 +19,7 @@ func run() -> void:
     b._begin_dive()
     for i in range(50): b._advance_dive(0.02)
     b._break_wing()
+    if hero_mode: b._damage_boss(2000.0)
     b._update_hud()
     b.queue_redraw()
     check(root.content_scale_mode == Window.CONTENT_SCALE_MODE_CANVAS_ITEMS, "canvas scaling enabled")
@@ -47,6 +49,25 @@ func run() -> void:
         check(screen.encloses(bounds), str(size) + " artwork visible")
         check(screen.has_point(transform * Vector2(1090,755)), str(size) + " bottom controls visible")
         check(screen.has_point(transform * Vector2(365,665)), str(size) + " wall visible")
+        if hero_mode:
+            check(screen.has_point(transform * (b.hero.position + Vector2(30,38))), str(size) + " hero visible")
+            for point in b.RUNE_POSITIONS:
+                check(screen.has_point(transform * (point + Vector2(46,46))) and screen.has_point(transform * (point - Vector2(46,57))), str(size) + " rune visible")
+            var target: Vector2 = b.RUNE_POSITIONS[0]
+            var mouse := InputEventMouseButton.new()
+            mouse.button_index = MOUSE_BUTTON_RIGHT
+            mouse.pressed = true
+            mouse.position = transform * target
+            mouse.global_position = mouse.position
+            root.warp_mouse(mouse.position)
+            root.push_input(mouse, false)
+            mouse = InputEventMouseButton.new()
+            mouse.button_index = MOUSE_BUTTON_RIGHT
+            mouse.position = transform * target
+            mouse.global_position = mouse.position
+            root.push_input(mouse, false)
+            await process_frame
+            check(b.hero.destination.distance_to(target) < 2.0, str(size) + " right click maps to rune in world space")
         # Letterbox dimensions are rounded to integer pixels by Godot.
         check(absf(transform.x.length() - transform.y.length()) * 760.0 <= 1.0,
             str(size) + " uniform scale within one pixel of rounding")
