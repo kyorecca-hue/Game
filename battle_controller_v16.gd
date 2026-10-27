@@ -279,7 +279,7 @@ func _lose() -> void:
 func _on_death_finished() -> void:
     notice = "Death animation finished"
 func _update_hud() -> void:
-    hud.text = "QIONGQI v16 | HP %d/1200 | WING %d/300 | WALL %d/500 | %s\n%s | Seal %d%% | %s" % [int(hp),int(wing_hp),int(wall_hp),phase,notice,int(seal_progress/2.5*100.0),result]
+    hud.text = "QIONGQI v16.2 | HP %d/1200 | WING %d/300 | WALL %d/500 | %s\n%s | Seal %d%% | %s" % [int(hp),int(wing_hp),int(wall_hp),phase,notice,int(seal_progress/2.5*100.0),result]
 func _draw() -> void:
     draw_rect(Rect2(0,0,1100,760),Color("171b20"))
     for y in range(160,720,65): draw_line(Vector2(0,y),Vector2(1100,y),Color("3c3833"),1.0)

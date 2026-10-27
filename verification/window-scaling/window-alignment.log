@@ -1,0 +1,47 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+
+WARNING: No Bone2D children of node Tail. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (res://tests/run_visual_alignment.gd:18)
+WARNING: No Bone2D children of node WingLeft. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (res://tests/run_visual_alignment.gd:18)
+WARNING: No Bone2D children of node WingRight. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (res://tests/run_visual_alignment.gd:18)
+WARNING: No Bone2D children of node BackLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (res://tests/run_visual_alignment.gd:18)
+WARNING: No Bone2D children of node BackRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (res://tests/run_visual_alignment.gd:18)
+WARNING: No Bone2D children of node FrontLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (res://tests/run_visual_alignment.gd:18)
+WARNING: No Bone2D children of node FrontRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (res://tests/run_visual_alignment.gd:18)
+WARNING: No Bone2D children of node Head. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run_all (res://tests/run_visual_alignment.gd:18)
+fly artwork bounds: [P: (321.0714, 228.4937), S: (423.3895, 265.8843)]
+dive artwork bounds: [P: (343.9648, 390.3463), S: (442.8212, 284.7923)]
+hurt artwork bounds: [P: (352.0625, 423.0861), S: (396.5914, 254.5459)]
+death artwork bounds: [P: (355.8624, 340.2258), S: (426.2609, 347.356)]
+VISUAL ALIGNMENT RESULTS: {"checks":27,"failures":[],"passed":true}

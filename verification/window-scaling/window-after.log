@@ -1,0 +1,52 @@
+Godot Engine v4.6.3.stable.official.7d41c59c4 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:364)
+OpenGL API 4.5 (Core Profile) Mesa 25.0.7-2+deb13u1 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 19.1.7, 256 bits)
+
+WARNING: No Bone2D children of node Tail. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/run_window_sizes.gd:12)
+WARNING: No Bone2D children of node WingLeft. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/run_window_sizes.gd:12)
+WARNING: No Bone2D children of node WingRight. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/run_window_sizes.gd:12)
+WARNING: No Bone2D children of node BackLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/run_window_sizes.gd:12)
+WARNING: No Bone2D children of node BackRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/run_window_sizes.gd:12)
+WARNING: No Bone2D children of node FrontLeftLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/run_window_sizes.gd:12)
+WARNING: No Bone2D children of node FrontRightLeg. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/run_window_sizes.gd:12)
+WARNING: No Bone2D children of node Head. Cannot calculate bone length or angle reliably.
+Using transform rotation for bone angle.
+     at: calculate_length_and_rotation (scene/2d/skeleton_2d.cpp:447)
+     GDScript backtrace (most recent call first):
+         [0] run (res://tests/run_window_sizes.gd:12)
+WINDOW (800, 600) artwork bounds [P: (256.0727, 329.6337), S: (285.6, 185.3558)] transform [X: (0.727273, 0.0), Y: (0.0, 0.726316), O: (0.0, 24.0)]
+WINDOW (640, 480) artwork bounds [P: (204.8582, 263.7284), S: (228.48, 148.4189)] transform [X: (0.581818, 0.0), Y: (0.0, 0.581579), O: (0.0, 19.0)]
+WINDOW (1280, 720) artwork bounds [P: (452.5347, 398.6526), S: (371.994, 241.7685)] transform [X: (0.947273, 0.0), Y: (0.0, 0.947368), O: (119.0, 0.0)]
+WINDOW (1280, 800) artwork bounds [P: (432.3452, 442.9474), S: (413.049, 268.6316)] transform [X: (1.051818, 0.0), Y: (0.0, 1.052632), O: (62.0, 0.0)]
+WINDOW (1600, 900) artwork bounds [P: (565.7583, 498.3158), S: (464.814, 302.2105)] transform [X: (1.183636, 0.0), Y: (0.0, 1.184211), O: (149.0, 0.0)]
+WINDOW (1100, 760) artwork bounds [P: (352.1, 420.8), S: (392.7, 255.2)] transform [X: (1.0, 0.0), Y: (0.0, 1.0), O: (0.0, 0.0)]
+WINDOW RESULTS: {"checks":32,"failures":[],"passed":true}
